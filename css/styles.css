@@ -43,6 +43,17 @@
   isolation: isolate;
   position: fixed;
   bottom: 0;
+  bottom: -375px;
+  left: 25px;
+  height: 100vh;
+  scale: 1.1;
+  z-index: 5;
+}
+
+.section2-trees2 {
+  isolation: isolate;
+  position: fixed;
+  bottom: 0;
   height: 60vh;
   scale: 1.1;
   z-index: 4;
