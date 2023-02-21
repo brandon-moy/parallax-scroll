@@ -3,24 +3,17 @@
   height: 100vh;
 }
 
-.scene-one {
-  background: pink;
-}
-
-.scene-two {
-  background: pink;
-
-  /* background: salmon; */
-}
-
-.mountain {
+.section-trees {
+  isolation: isolate;
   position: fixed;
-  left: -100px;
-  bottom: -150px;
+  bottom: 0;
+  scale: 1.1;
 }
 
-.mountain2 {
-  position: fixed;
-  bottom: -150px;
-  left: 250px;
+.scroll-element {
+  position: absolute;
+  height: 6000px;
+  width: 100px;
+  top: 0;
+  z-index: 0;
 }
