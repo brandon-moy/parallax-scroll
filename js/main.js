@@ -13,9 +13,17 @@ ScrollTrigger.create({
   scrub: 3
 });
 
-scene1.to('.section-trees', {
+scene1.to('.section1-trees', {
   y: 3 * speed,
   x: 0,
+  scale: 1,
+  ease: 'power1.in'
+},
+0.1
+);
+scene1.to('.section1-mountain1', {
+  y: 6 * speed,
+  x: -3 * speed,
   scale: 1,
   ease: 'power1.in'
 },

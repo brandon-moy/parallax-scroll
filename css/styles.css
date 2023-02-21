@@ -3,11 +3,20 @@
   height: 100vh;
 }
 
-.section-trees {
+.section1-trees {
   isolation: isolate;
   position: fixed;
   bottom: 0;
   scale: 1.1;
+  z-index: 4;
+}
+
+.section1-mountain1 {
+  isolation: isolate;
+  position: fixed;
+  scale: 1.1;
+  transform: translateX(-25%);
+  z-index: 3;
 }
 
 .section2-trees {
