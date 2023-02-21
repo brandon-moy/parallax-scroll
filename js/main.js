@@ -2,8 +2,25 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to('.square', {
-  x: 700,
-  duration: 3,
-  scrollTrigger: '.square2'
+gsap.to('.mountain', {
+  x: -1000,
+  y: 1000,
+  duration: 5,
+  scrollTrigger: {
+    trigger: '.scene-two',
+    start: 'top 30%',
+    end: 'bottom',
+    markers: true
+  }
+});
+
+gsap.to('.mountain2', {
+  x: -500,
+  y: 1000,
+  duration: 5,
+  scrollTrigger: {
+    trigger: '.scene-two',
+    start: 'top 30%',
+    end: 'bottom'
+  }
 });

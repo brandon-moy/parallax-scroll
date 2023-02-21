@@ -1,25 +1,26 @@
-.div1,
-.div2 {
+.scene-one,
+.scene-two {
   height: 100vh;
 }
 
-.div1 {
+.scene-one {
   background: pink;
 }
 
-.div2 {
-  background: salmon;
+.scene-two {
+  background: pink;
+
+  /* background: salmon; */
 }
 
-.square {
-  width: 150px;
-  height: 150px;
-  background-color: fuchsia;
+.mountain {
+  position: fixed;
+  left: -100px;
+  bottom: -150px;
 }
 
-.square2 {
-  margin-top: 300px;
-  width: 150px;
-  height: 150px;
-  background-color: blue;
+.mountain2 {
+  position: fixed;
+  bottom: -150px;
+  left: 250px;
 }
