@@ -48,3 +48,8 @@ scene2.fromTo('.section2-mountain1',
   { y: 0, opacity: 1 },
   0.2
 );
+scene2.fromTo('.section2-hills',
+  { y: 1000, opacity: 0 },
+  { y: 500, opacity: 1 },
+  0.4
+);
