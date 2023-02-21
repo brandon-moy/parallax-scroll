@@ -1,3 +1,45 @@
-* {
-  background: chartreuse;
+.scene-one,
+.scene-two {
+  height: 100vh;
+}
+
+.section1-trees {
+  isolation: isolate;
+  position: fixed;
+  bottom: 0;
+  scale: 1.1;
+  z-index: 4;
+}
+
+.section1-mountain1 {
+  isolation: isolate;
+  position: fixed;
+  scale: 1.1;
+  transform: translateX(-25%);
+  z-index: 3;
+}
+
+.section2-trees {
+  isolation: isolate;
+  position: fixed;
+  bottom: 0;
+  height: 60vh;
+  scale: 1.1;
+  z-index: 4;
+}
+
+.section2-mountain1 {
+  isolation: isolate;
+  position: fixed;
+  bottom: -350px;
+  left: 50px;
+  z-index: 3;
+}
+
+.scroll-element {
+  position: absolute;
+  height: 6000px;
+  width: 100px;
+  top: 0;
+  z-index: 0;
 }
