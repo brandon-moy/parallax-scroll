@@ -13,22 +13,25 @@ ScrollTrigger.create({
   scrub: 3
 });
 
-// gsap.to('.mountain', {
-//   x: -1000,
-//   y: 1000,
-//   duration: 5,
-//   scrollTrigger: {
-//     trigger: '.scene-two',
-//     start: 'top 30%',
-//     end: 'bottom',
-//     markers: true
-//   }
-// });
-
 scene1.to('.section-trees', {
   y: 3 * speed,
   x: 0,
   scale: 1,
   ease: 'power1.in'
 },
-0);
+0
+);
+
+const scene2 = gsap.timeline();
+ScrollTrigger.create({
+  animation: scene2,
+  trigger: '.scroll-element',
+  start: '15% top',
+  end: '40% 100%',
+  scrub: 4
+});
+scene2.fromTo('.section2-trees',
+  { y: 500, opacity: 0 },
+  { y: 0, opacity: 1 },
+  0
+);
