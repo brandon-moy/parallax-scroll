@@ -19,7 +19,7 @@ scene1.to('.section1-trees', {
   scale: 1,
   ease: 'power1.in'
 },
-0.1
+0.2
 );
 scene1.to('.section1-mountain1', {
   y: 6 * speed,
@@ -27,7 +27,7 @@ scene1.to('.section1-mountain1', {
   scale: 1,
   ease: 'power1.in'
 },
-0.15
+0.25
 );
 scene1.to('.section1-mountain-range', {
   y: 6 * speed,
@@ -35,14 +35,20 @@ scene1.to('.section1-mountain-range', {
   scale: 1,
   ease: 'power1.in'
 },
-0
+0.1
 );
 scene1.to('.section1-hills', {
   y: 6 * speed,
   x: 0,
   scale: 1,
   ease: 'power1.in'
-}, 0.1
+}, 0.2
+);
+scene1.to('.section1-sun', {
+  y: 6 * speed,
+  x: 0,
+  ease: 'power1.in'
+}, 0
 );
 
 const scene2 = gsap.timeline();
