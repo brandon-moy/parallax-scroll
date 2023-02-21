@@ -29,6 +29,14 @@ scene1.to('.section1-mountain1', {
 },
 0
 );
+scene1.to('.section1-mountain-range', {
+  y: 6 * speed,
+  x: -3 * speed,
+  scale: 1,
+  ease: 'power1.in'
+},
+0
+);
 
 const scene2 = gsap.timeline();
 ScrollTrigger.create({

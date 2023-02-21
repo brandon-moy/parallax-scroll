@@ -14,8 +14,16 @@
 .section1-mountain1 {
   isolation: isolate;
   position: fixed;
-  scale: 1.1;
-  transform: translateX(-25%);
+  scale: 1.5;
+  transform: translateX(-25%) translateY(5%) rotate(-5deg);
+  z-index: 2;
+}
+
+.section1-mountain-range {
+  isolation: isolate;
+  position: fixed;
+  bottom: -400px;
+  right: -500px;
   z-index: 3;
 }
 
