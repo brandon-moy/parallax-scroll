@@ -7,7 +7,12 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: salmon;
+  background:
+    radial-gradient(
+      circle,
+      rgb(38 69 72) 70%,
+      rgb(58 72 73)
+    );
 }
 
 body::-webkit-scrollbar {

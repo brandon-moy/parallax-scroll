@@ -9,6 +9,7 @@
   bottom: 0;
   scale: 1.1;
   z-index: 5;
+  fill: rgb(21 33 41);
 }
 
 .section1-mountain1 {
@@ -23,6 +24,7 @@
   isolation: isolate;
   position: fixed;
   z-index: 4;
+  fill: rgb(28 40 51);
 }
 
 .section1-mountain-range {
@@ -38,9 +40,9 @@
   position: fixed;
   width: 400px;
   height: 400px;
-  background: rgb(233 185 39);
+  background: rgb(226 188 123);
   border-radius: 50%;
-  box-shadow: 0 0 100px 20px yellow;
+  box-shadow: 0 0 100px 20px rgb(186 186 118);
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -50,6 +52,7 @@
   isolation: isolate;
   position: fixed;
   bottom: 0;
+  z-index: 3;
 }
 
 .section2-trees {
@@ -77,7 +80,7 @@
   position: fixed;
   bottom: -350px;
   left: 50px;
-  z-index: 3;
+  z-index: 2;
 }
 
 .scroll-element {
