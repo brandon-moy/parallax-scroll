@@ -23,7 +23,7 @@ scene1.to('.section1-trees', {
 );
 scene1.to('.section1-mountain1', {
   y: 6 * speed,
-  x: -3 * speed,
+  x: -9 * speed,
   scale: 1,
   ease: 'power1.in'
 },
@@ -31,7 +31,7 @@ scene1.to('.section1-mountain1', {
 );
 scene1.to('.section1-mountain-range', {
   y: 6 * speed,
-  x: -3 * speed,
+  x: 3 * speed,
   scale: 1,
   ease: 'power1.in'
 },
