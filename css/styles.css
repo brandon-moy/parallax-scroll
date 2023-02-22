@@ -3,37 +3,110 @@
   height: 100vh;
 }
 
+.scene1-bg {
+  background:
+    radial-gradient(
+      circle,
+      #494866 70%,
+      #222133
+    );
+}
+
 .section1-trees {
   isolation: isolate;
   position: fixed;
   bottom: 0;
   scale: 1.1;
-  z-index: 4;
+  z-index: 5;
+  fill: #2a1e2e;
 }
 
 .section1-mountain1 {
   isolation: isolate;
   position: fixed;
-  scale: 1.1;
-  transform: translateX(-25%);
+  scale: 1.5;
+  transform: translateX(-25%) translateY(5%) rotate(-5deg);
+  z-index: 2;
+  fill: #6b4d5e;
+}
+
+.section1-hills {
+  isolation: isolate;
+  position: fixed;
+  z-index: 4;
+  fill: #413244;
+}
+
+.section1-mountain-range {
+  isolation: isolate;
+  position: fixed;
+  bottom: -400px;
+  right: -500px;
   z-index: 3;
+  fill: #644c5a;
+}
+
+.section1-sun {
+  isolation: isolate;
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background: rgb(226 188 123);
+  border-radius: 50%;
+  box-shadow: 0 0 100px 20px rgb(186 186 118);
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.section2-moon {
+  position: fixed;
+  isolation: isolate;
+  top: 20px;
+  right: 500px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 30px 25px 2px 16px #fff;
+  border-radius: 50%;
+}
+
+.section2-hills {
+  isolation: isolate;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  fill: #1d1930;
 }
 
 .section2-trees {
   isolation: isolate;
   position: fixed;
   bottom: 0;
+  bottom: -375px;
+  left: 25px;
+  height: 100vh;
+  scale: 1.1;
+  z-index: 5;
+  fill: #11101f;
+}
+
+.section2-trees2 {
+  isolation: isolate;
+  position: fixed;
+  bottom: 0;
   height: 60vh;
   scale: 1.1;
   z-index: 4;
+  fill: #121220;
 }
 
-.section2-mountain1 {
+.section2-trees3 {
   isolation: isolate;
   position: fixed;
-  bottom: -350px;
-  left: 50px;
-  z-index: 3;
+  bottom: 200px;
+  left: -10px;
+  fill: #191627;
+  z-index: 2;
 }
 
 .scroll-element {
