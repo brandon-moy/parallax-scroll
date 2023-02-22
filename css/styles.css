@@ -7,8 +7,8 @@
   background:
     radial-gradient(
       circle,
-      #f38b5f 70%,
-      #e75a69
+      #494866 70%,
+      #222133
     );
 }
 
@@ -75,6 +75,7 @@
   position: fixed;
   bottom: 0;
   z-index: 3;
+  fill: #1d1930;
 }
 
 .section2-trees {
@@ -86,6 +87,7 @@
   height: 100vh;
   scale: 1.1;
   z-index: 5;
+  fill: #11101f;
 }
 
 .section2-trees2 {
@@ -95,6 +97,7 @@
   height: 60vh;
   scale: 1.1;
   z-index: 4;
+  fill: #121220;
 }
 
 .section2-trees3 {
@@ -102,7 +105,7 @@
   position: fixed;
   bottom: 200px;
   left: -10px;
-  fill: rgb(28 40 51);
+  fill: #191627;
   z-index: 2;
 }
 

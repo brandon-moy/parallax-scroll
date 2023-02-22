@@ -91,6 +91,6 @@ scene2.fromTo('.section2-trees3',
 );
 scene2.fromTo('.background',
   { background: 'radial-gradient(circle, #f38b5f 70%, #e75a69)' },
-  { background: 'radial-gradient(circle, rgb(38 69 72) 70%, rgb(58 72 73))' },
+  { background: 'radial-gradient(circle, #494866 75%, #222133)' },
   0.5
 );
