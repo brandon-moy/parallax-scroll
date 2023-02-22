@@ -7,8 +7,8 @@
   background:
     radial-gradient(
       circle,
-      rgb(38 69 72) 70%,
-      rgb(58 72 73)
+      #f38b5f 70%,
+      #e75a69
     );
 }
 
@@ -18,7 +18,7 @@
   bottom: 0;
   scale: 1.1;
   z-index: 5;
-  fill: rgb(21 33 41);
+  fill: #2a1e2e;
 }
 
 .section1-mountain1 {
@@ -27,13 +27,14 @@
   scale: 1.5;
   transform: translateX(-25%) translateY(5%) rotate(-5deg);
   z-index: 2;
+  fill: #6b4d5e;
 }
 
 .section1-hills {
   isolation: isolate;
   position: fixed;
   z-index: 4;
-  fill: rgb(28 40 51);
+  fill: #413244;
 }
 
 .section1-mountain-range {
@@ -42,6 +43,7 @@
   bottom: -400px;
   right: -500px;
   z-index: 3;
+  fill: #644c5a;
 }
 
 .section1-sun {
