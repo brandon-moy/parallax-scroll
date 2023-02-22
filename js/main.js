@@ -79,3 +79,18 @@ scene2.fromTo('.section2-hills',
   { y: 500, opacity: 1 },
   0.1
 );
+scene2.fromTo('.section2-moon',
+  { y: 1000, opacity: 0 },
+  { y: 0, opacity: 1 },
+  0.4
+);
+scene2.fromTo('.section2-trees3',
+  { y: 1000, opacity: 0 },
+  { y: 0, opacity: 1 },
+  0
+);
+scene2.fromTo('.background',
+  { background: 'radial-gradient(circle, rgb(38 69 72) 70%, rgb(58 72 73))' },
+  { background: 'radial-gradient(circle, rgb(38 69 72) 70%, rgb(58 72 73))' },
+  0.5
+);

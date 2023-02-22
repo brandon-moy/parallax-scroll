@@ -3,6 +3,15 @@
   height: 100vh;
 }
 
+.scene1-bg {
+  background:
+    radial-gradient(
+      circle,
+      rgb(38 69 72) 70%,
+      rgb(58 72 73)
+    );
+}
+
 .section1-trees {
   isolation: isolate;
   position: fixed;
@@ -48,6 +57,17 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
+.section2-moon {
+  position: fixed;
+  isolation: isolate;
+  top: 20px;
+  right: 500px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 30px 25px 2px 16px #fff;
+  border-radius: 50%;
+}
+
 .section2-hills {
   isolation: isolate;
   position: fixed;
@@ -75,11 +95,12 @@
   z-index: 4;
 }
 
-.section2-mountain1 {
+.section2-trees3 {
   isolation: isolate;
   position: fixed;
-  bottom: -350px;
-  left: 50px;
+  bottom: 200px;
+  left: -10px;
+  fill: rgb(28 40 51);
   z-index: 2;
 }
 
